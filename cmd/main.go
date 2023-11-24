@@ -2,16 +2,15 @@ package main
 
 import (
 	"fmt"
+	"github.com/instinctG/urlshort/handler
 	"io"
 	"log"
 	"net/http"
 	"os"
-	"github.com/instinctG/urlshort/handler
 )
 
 func main() {
 	mux := defaultMux()
-	fmt.Println("hello")
 
 	// Build the MapHandler using the mux as the fallback
 	pathsToUrls := map[string]string{

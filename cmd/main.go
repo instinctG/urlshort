@@ -11,7 +11,7 @@ import (
 
 func main() {
 	mux := defaultMux()
-
+	fmt.Println("hello)
 	// Build the MapHandler using the mux as the fallback
 	pathsToUrls := map[string]string{
 		"/urlshort-godoc": "https://godoc.org/github.com/gophercises/urlshort",

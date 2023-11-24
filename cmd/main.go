@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"github.com/instinctG/urlshort/handler
 )
 
 func main() {
